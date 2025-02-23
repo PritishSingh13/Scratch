@@ -9,7 +9,7 @@ const userSchema = mongoose.Schema({
         default:[]               //for array part if your type is array
         
     },
-    isadmin: Boolean,
+  
     orders: {
         type: Array,
         default:[]
